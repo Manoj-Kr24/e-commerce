@@ -1,0 +1,21 @@
+<svg width="200" height="250" viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>
+    .text { font: bold 32px sans-serif; fill: #000; }
+    .s-shape { font: 100px sans-serif; fill: #000; }
+    .needle { stroke: #000; stroke-width: 3; stroke-linecap: round; }
+    .thread { fill: none; stroke: #000; stroke-width: 2; }
+  </style>
+
+  <!-- Large S -->
+  <text x="60" y="110" class="s-shape">S</text>
+
+  <!-- Needle overlaying S -->
+  <line x1="115" y1="35" x2="85" y2="130" class="needle" />
+  <circle cx="113" cy="40" r="2" fill="#fff"/>
+
+  <!-- Curved thread -->
+  <path d="M115,35 C150,60 160,120 100,140" class="thread" />
+
+  <!-- Brand name -->
+  <text x="40" y="200" class="text">Stitchly</text>
+</svg>

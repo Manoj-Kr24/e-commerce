@@ -44,14 +44,14 @@ const Profile = () => {
 
 
     return (
-        <div className="p-6 max-w-lg mx-auto bg-gradient-to-br from-blue-100 to-blue-300 rounded-2xl shadow-lg space-y-6">
+        <div className="p-6 max-w-lg mx-auto bg-[#dfdfdf] rounded-2xl shadow-lg space-y-6">
             <h2 className="text-center text-3xl font-bold text-gray-800">My Profile</h2>
-            <div className="p-6 max-w-lg mx-auto bg-gradient-to-br from-purple-100 to-purple-300 rounded-2xl shadow-lg space-y-6 text-center">
+            <div className="p-6 max-w-lg mx-auto bg-gradient-to-br from-purple-100 to-[#e0e0e0] rounded-2xl shadow-lg space-y-6 text-center">
                 <h1 className="text-4xl font-extrabold text-gray-800">Welcome, {user.name}!</h1>
                 <p className="text-lg text-gray-600">We're glad to have you here. Here's your profile information:</p>
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                    <p className="text-gray-700 text-xl"><strong className="text-purple-600">Name:</strong> {user.name}</p>
-                    <p className="text-gray-700 text-xl"><strong className="text-purple-600">Email:</strong> {user.email}</p>
+                    <p className="text-gray-700 text-xl"><strong className="text-[#646464]">Name:</strong> {user.name}</p>
+                    <p className="text-gray-700 text-xl"><strong className="text-[#646464]">Email:</strong> {user.email}</p>
                 </div>
             </div>
 
